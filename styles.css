@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 50px limegreen; /* Green shadow for the whole background */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: limegreen; /* Green links */
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.info {
+    max-width: 500px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 36px;text-shadow: 0 00 10px limegreen;
+}
+
+.Hi,im-Aritra {
+    font-size: 50px; /* Set to 50px */
+    font-weight: bold; /* Bold text */
+    color: white; /* White color for "I'm " */
+}
+
+.highlight {
+    color: limegreen; /* Green color for "Aritra" */
+    font-weight: bold;
+}
+
+.blinking {
+    color: limegreen;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* Removed .cv-button styles */
+
+.image-container img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid limegreen; /* Bold green border */
+    box-shadow: 0 0 90px darkgreen; /* Dark green shadow */
+    background-color: darkgreen; /* Dark green background for the image */
+}
+
+footer {
+    background-color: #222;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: limegreen; /* Green social media icons */
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: white; /* Change color on hover */
+}
